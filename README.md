@@ -1,4 +1,4 @@
-# Smart Physio Therapy
+`# Smart Physio Therapy
 
 A pet project built with strong focus on code quality, hands-on microservice architecture, and real-world hospital use cases such as device monitoring, electronic medical records, and online appointment booking.
 
@@ -7,10 +7,11 @@ A pet project built with strong focus on code quality, hands-on microservice arc
 | Service | Description |
 |--------|-------------|
 | [Device Service](https://github.com/keisour389/device-service) | Collect and validate sensor data from medical devices (MongoDB) |
-| [Patient Service](https://github.com/keisour389/patient-service) | Handle patient registration, profile and appointments (MySQL) |
+| [Booking Service](https://github.com/keisour389/booking-service) | Create booking, appointments and avaible check (MongDB) |
+| [Patient Service](https://github.com/keisour389/patient-service) | Handle patient registration, profile and medical history (MySQL) |
 | [Payment Service](https://github.com/keisour389/payment-service) | Process payments and billing |
 | [Discovery Service](https://github.com/keisour389/discovery-service) | Eureka server for service registration and discovery |
-| [API Gateway](https://github.com/keisour389/api-gateway) | Single entry point for all services, handles routing/security |
+| [API Gateway](https://github.com/keisour389/api-gateway-service) | Single entry point for all services, handles routing/security |
 
 ## System design
 https://github.com/user-attachments/assets/273624ac-5ec3-4d97-bcc1-6365505d9a5d
